@@ -1,0 +1,46 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #ffefef;
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-family: 'Playfair Display', serif;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+.main {
+  background-color: white;
+  margin: 50px 15%;
+  padding: 10px;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+
+.home-img {
+  flex-basis: 33.333%;
+}
+
+.home-img img {
+  width: 100%;
+}
+
+.about-us {
+  column-count: 2;
+}
+
+.about-us p {
+  margin-top: 0;
+}

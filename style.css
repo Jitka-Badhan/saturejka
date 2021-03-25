@@ -10,11 +10,16 @@ h2 {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 40px;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 30px;
+}
+
+header p {
+  font-size: 20px;
+  padding: 0 30%;
 }
 
 .main {
@@ -25,6 +30,11 @@ h2 {
 
 .nase-nabidka h1 {
   margin-top: 0;
+}
+
+.nase-nabidka p {
+  font-size: 18px;
+  padding: 0 20%;
 }
 
 .gallery {
@@ -56,7 +66,7 @@ h2 {
 }
 
 section {
-  font-size: 14px;
+  font-size: 15px;
   overflow: auto;
   margin-bottom: 50px;
 }
@@ -106,4 +116,10 @@ section {
 .show-menu:focus,
 .show-menu:active {
   background-color: pink;
+}
+
+footer p {
+  font-size: 12px;
+  padding: 0 25%;
+  margin: 50px 0;
 }

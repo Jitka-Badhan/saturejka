@@ -19,7 +19,6 @@ h2 {
 
 header p {
   font-size: 20px;
-  padding: 0 30%;
 }
 
 .main {
@@ -34,7 +33,6 @@ header p {
 
 .nase-nabidka p {
   font-size: 18px;
-  padding: 0 20%;
 }
 
 .gallery {
@@ -120,6 +118,11 @@ section {
 
 footer p {
   font-size: 12px;
-  padding: 0 25%;
   margin: 50px 0;
+}
+
+header p,
+.nase-nabidka p,
+footer p {
+  padding: 0 25%;
 }

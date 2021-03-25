@@ -7,6 +7,7 @@ body {
 h1,
 h2 {
   font-family: 'Playfair Display', serif;
+  margin-top: 30px;
 }
 
 h1 {
@@ -20,13 +21,12 @@ h2 {
 .main {
   background-color: white;
   margin: 50px 15%;
-  padding: 10px;
+  padding: 50px;
 }
 
 .gallery {
   display: flex;
   flex-direction: row;
-  margin: 20px;
 }
 
 .home-img {
@@ -43,4 +43,35 @@ h2 {
 
 .about-us p {
   margin-top: 0;
+  text-align: left;
+}
+
+section {
+  font-size: 14px;
+  overflow: auto;
+  margin: 50px;
+}
+
+.losos,
+.sladka-melancholie {
+  text-align: left;
+}
+
+.tagliatelle {
+  text-align: right;
+}
+
+.left,
+.right {
+  width: 300px;
+}
+
+.left {
+  float: left;
+  margin-right: 50px;
+}
+
+.right {
+  float: right;
+  margin-left: 50px;
 }
